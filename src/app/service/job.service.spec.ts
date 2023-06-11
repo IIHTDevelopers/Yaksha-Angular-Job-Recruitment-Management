@@ -39,7 +39,7 @@ describe("JobService", () => {
     httpMock.verify();
   });
 
-  describe("functional", () => {
+  describe("business", () => {
     it("should be created", () => {
       expect(service).toBeTruthy();
     });
